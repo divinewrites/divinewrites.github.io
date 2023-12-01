@@ -215,7 +215,7 @@ function Site() {
                 </div>
               </ProjectCard>
 
-              <MiscProjectCard href="https://github.com/blackshibe/remind-me-notes">
+              <MiscProjectCard href="">
                 <h1 className="text-2xl font-bold font-ibm-mono">Rust-RPS</h1>
                 <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
                   Open-source Game
@@ -231,7 +231,7 @@ function Site() {
               </MiscProjectCard>
 
 			  
-              <MiscProjectCard href="https://blackshibe.github.io/canim">
+              <MiscProjectCard href="">
                 <h1 className="text-2xl font-bold font-ibm-mono">LoFi-Lib</h1>
                 <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
                   Open-source Web Scraper
@@ -286,7 +286,7 @@ function Site() {
                 </div>
               </ProjectCard>
 
-              <MiscProjectCard href="https://github.com/blackshibe/remind-me-notes">
+              <MiscProjectCard href="">
                 <h1 className="text-2xl font-bold font-ibm-mono">Weather-App</h1>
                 <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
                   Open-source Weather Application
@@ -301,7 +301,7 @@ function Site() {
                 </ProjectTags>
               </MiscProjectCard>
 
-              <MiscProjectCard href="https://github.com/blackshibe/remind-me-notes">
+              <MiscProjectCard href="">
                 <h1 className="text-2xl font-bold font-ibm-mono">
                   Pwd-Crabager
                 </h1>
