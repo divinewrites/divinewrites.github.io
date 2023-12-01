@@ -383,6 +383,7 @@ function Site() {
                     <li className="devicon-git-plain"></li>
                     <li className="devicon-nodejs-plain"></li>
                     <li className="devicon-html5-plain"></li>
+					<li className="devicon-css3-plain"></li>
                   </ProjectTags>
                 </ul>
               </ExperienceCard>
