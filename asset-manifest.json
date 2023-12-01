@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3af10d63.css",
+    "main.js": "/static/js/main.fdc6dbbf.js",
+    "static/media/latvia.jpg": "/static/media/latvia.a05fcb4cb0ce16796d1e.jpg",
+    "static/media/noise.png": "/static/media/noise.30018bbf3e23114b339e.png",
+    "index.html": "/index.html",
+    "main.3af10d63.css.map": "/static/css/main.3af10d63.css.map",
+    "main.fdc6dbbf.js.map": "/static/js/main.fdc6dbbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3af10d63.css",
+    "static/js/main.fdc6dbbf.js"
+  ]
+}
