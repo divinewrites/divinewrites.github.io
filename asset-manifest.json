@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.3af10d63.css",
-    "main.js": "/static/js/main.848787ee.js",
+    "main.js": "/static/js/main.44ab4202.js",
     "static/media/latvia.jpg": "/static/media/latvia.a05fcb4cb0ce16796d1e.jpg",
     "static/media/noise.png": "/static/media/noise.30018bbf3e23114b339e.png",
     "index.html": "/index.html",
     "main.3af10d63.css.map": "/static/css/main.3af10d63.css.map",
-    "main.848787ee.js.map": "/static/js/main.848787ee.js.map"
+    "main.44ab4202.js.map": "/static/js/main.44ab4202.js.map"
   },
   "entrypoints": [
     "static/css/main.3af10d63.css",
-    "static/js/main.848787ee.js"
+    "static/js/main.44ab4202.js"
   ]
 }
