@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--github-social: rgb(104, 108, 148);
+	--yt-social: rgb(251, 59, 59);
+	--email-social: #970012;
+	--telegram-social: #3867d5;
+	--disc-social: rgb(99, 99, 200);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	margin: 0;
+}
+
+.font-ibm-mono {
+	font-family: "Quicksand", sans-serif;
+}
+
+.font-poppins {
+	font-family: "Poppins", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.bg-image {
+	z-index: -1;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.bg-ump {
+	/* background-image: url("../public/ump.png"); */
+	background-position: center;
+	background-size: cover;
+	aspect-ratio: 16 / 9;
+	image-rendering: unset;
+}
+
+.bg-noise {
+	background-image: url("../public/noise.png");
+	background-size: 500px;
+	image-rendering: pixelated;
+}
+
+.experience-width {
+	width: min(1200px, 100%);
+}
+
+.half-transparent {
+	background-color: rgba(0, 0, 0, 0.26);
+}
+
+.card-width {
+	width: min(800px, 100%);
+}
+
+:root {
+	scrollbar-color: #464646 #1c1c1c;
 }
