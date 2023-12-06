@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./index.css";
 
-import latvia from "./wallpaper/latvia.jpg";
+import cartoon from "./wallpaper/cartoon.jpg";
 
 function ProjectCard({
   children,
@@ -95,7 +95,7 @@ function Header({
       >
         {header}
       </a>
-      <h2 className="text-1xl font-ibm-mono font-bold text-orange-400 pb-4">
+      <h2 className="text-1xl font-ibm-mono font-bold text-white-400 pb-4">
         {footer}
       </h2>
     </>
@@ -103,7 +103,7 @@ function Header({
 }
 
 function Site() {
-  let banners = [latvia];
+  let banners = [cartoon];
   let banner = Math.floor(Math.random() * banners.length);
 
   return (
@@ -128,7 +128,7 @@ function Site() {
                 <h1 className="text-4xl md:text-6xl font-bold font-ibm-mono">
                   divinewrites
                 </h1>
-                <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
+                <h2 className="text-1xl font-ibm-mono font-bold text-white-400">
                   that one epic guy
                 </h2>
               </div>
@@ -138,8 +138,7 @@ function Site() {
 
             <div className="text-sm sm:text-base">
               <p>
-                Greetings! I'm Divine, a Full-Stack Developer and Gameplay
-                Programmer.
+                Yo! I'm Divine, a Full-Stack Developer and Gameplay Programmer.
               </p>
               <br />
               <p>
@@ -217,7 +216,7 @@ function Site() {
 
               <MiscProjectCard href="">
                 <h1 className="text-2xl font-bold font-ibm-mono">Rust-RPS</h1>
-                <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
+                <h2 className="text-1xl font-ibm-mono font-bold text-white-400">
                   Open-source Game
                 </h2>
 
@@ -230,10 +229,9 @@ function Site() {
                 </ProjectTags>
               </MiscProjectCard>
 
-			  
               <MiscProjectCard href="">
                 <h1 className="text-2xl font-bold font-ibm-mono">LoFi-Lib</h1>
-                <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
+                <h2 className="text-1xl font-ibm-mono font-bold text-white-400">
                   Open-source Web Scraper
                 </h2>
 
@@ -287,8 +285,10 @@ function Site() {
               </ProjectCard>
 
               <MiscProjectCard href="">
-                <h1 className="text-2xl font-bold font-ibm-mono">Weather-App</h1>
-                <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
+                <h1 className="text-2xl font-bold font-ibm-mono">
+                  Weather-App
+                </h1>
+                <h2 className="text-1xl font-ibm-mono font-bold text-white-400">
                   Open-source Weather Application
                 </h2>
 
@@ -305,7 +305,7 @@ function Site() {
                 <h1 className="text-2xl font-bold font-ibm-mono">
                   Pwd-Crabager
                 </h1>
-                <h2 className="text-1xl font-ibm-mono font-bold text-orange-400">
+                <h2 className="text-1xl font-ibm-mono font-bold text-white-400">
                   Open-source Password Manager
                 </h2>
 
@@ -368,7 +368,7 @@ function Site() {
                 <h1 className="text-2xl font-bold font-ibm-mono">
                   Languages | Tooling
                 </h1>
-				
+
                 <p className="pt-2 text-zinc-600 text-base">
                   Languages I have experience with & tooling I use regularly
                 </p>
@@ -383,7 +383,7 @@ function Site() {
                     <li className="devicon-git-plain"></li>
                     <li className="devicon-nodejs-plain"></li>
                     <li className="devicon-html5-plain"></li>
-					<li className="devicon-css3-plain"></li>
+                    <li className="devicon-css3-plain"></li>
                   </ProjectTags>
                 </ul>
               </ExperienceCard>
