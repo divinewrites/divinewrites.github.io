@@ -129,7 +129,7 @@ function Site() {
                   divinewrites
                 </h1>
                 <h2 className="text-1xl font-ibm-mono font-bold text-white-400">
-                  that one epic guy
+                  This site is running on hopes and dreams
                 </h2>
               </div>
             </div>
@@ -142,15 +142,20 @@ function Site() {
               </p>
               <br />
               <p>
-                I dove headfirst into the world of game development (ROBLOX) at
-                the age of 10. Fast forward to 2019, and my casual tinkering
-                with code turned into a full-blown passion for programming.
+                I started programming around the age of 10, ever since then I've
+                been hopping from one programming language and framework to
+                another. Learning new tech when I feel like it.
               </p>
-              <br />
+              <br></br>
               <p>
-                Since then, I've been cooking up incomplete games (LOL) and
-                handy tools and collaborating with other developers, all while
-                embracing the fine art of procrastination every now and then.
+                Currently a frontend developer @{" "}
+                <a
+                  href="https://openstudiocorp.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  OpenStudio
+                </a>
               </p>
             </div>
           </div>
@@ -319,10 +324,10 @@ function Site() {
               </MiscProjectCard>
             </div>
           </div>
+
           <h1 className="text-2xl p-4 font-bold font-ibm-mono text-zinc-200">
             General Experience
           </h1>
-
           <div className="h-full grid md:flex justify-center">
             <div className="p-4 flex flex-col gap-4 w-full md:w-3/5">
               <ExperienceCard>
@@ -391,11 +396,20 @@ function Site() {
               <ExperienceCard>
                 <h1 className="text-2xl font-bold font-ibm-mono">Other</h1>
                 <ul className="pt-2 text-zinc-600 text-base">
-                  <p>General experience with Git & Github CI pipelines</p>
-                  <p>
-                    General experience with Linux for server hosting and
-                    personal use
-                  </p>
+                  <li>
+                    Proficient in utilizing Git & GitHub CI pipelines for
+                    version control and continuous integration.
+                  </li>
+                  <br/>
+                  <li>
+                    Well-versed in working with Linux for both server hosting
+                    and personal computing.
+                  </li>
+                  <br/>
+                  <li>
+                    Extensive experience with AWS and its core services,
+                    including VPC, EC2, IAM, and more.
+                  </li>
                 </ul>
               </ExperienceCard>
             </div>
